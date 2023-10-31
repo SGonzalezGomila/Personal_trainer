@@ -1,0 +1,21 @@
+#parques{
+    background: black;
+    width: 1000px;
+    position: relative;
+    left: 200px;
+    border: 1px solid #008170;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.parques{
+    h3,p{
+        color: white;
+        margin: 10px;
+        margin-left: 30px;
+    }
+    img{
+        width: 30px;
+    }
+}
