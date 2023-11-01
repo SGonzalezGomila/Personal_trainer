@@ -1,0 +1,46 @@
+#contacto {
+    background: black;
+    width: 1000px;
+    height: 20%;
+    position: relative;
+    left: 200px;
+    border: 1px solid #008170;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contactos {
+    .contactos_wrap {
+        text-align: center;
+
+        h2 {
+            color: white;
+        }
+
+        .contacto_boton {
+            img {
+                width: 30px;
+                
+            }
+
+          button{
+            text-decoration: none;
+            background-color: black;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 5px;
+            border: 1px solid #008170;
+            &:hover{
+                transform: scale(1.2);
+            }
+          }
+          a{
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+          }
+            }
+        }
+    }
+   
